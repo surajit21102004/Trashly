@@ -128,7 +128,7 @@ const login =(e) =>{
                return alert(res.message)
            console.log(res.user._id)
            localStorage.setItem("userid",res.user._id)
-           window.location.href="https://mapur2.github.io/trashly_frontend/dashboard.html"
+           window.location.href="https://surajit21102004.github.io/trashly_frontend/dashboard.html"
        })
        .catch((error)=>{
            console.log(error)
